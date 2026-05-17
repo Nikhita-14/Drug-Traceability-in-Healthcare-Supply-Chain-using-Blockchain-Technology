@@ -46,4 +46,4 @@ run.bat
 - Default configuration uses a local development server.  
 
 ## License
-This project is intended for academic and educational purposes.
+This project is intended for academic and educational purposes only.
