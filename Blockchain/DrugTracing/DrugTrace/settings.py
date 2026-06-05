@@ -55,9 +55,7 @@ ROOT_URLCONF = 'DrugTrace.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-         'DIRS': [
-		os.path.join('E:/venkat/2021/April23/DrugTracing/DrugTraceApp', 'templates'),
-	],
+        'DIRS': [os.path.join(BASE_DIR, 'DrugTraceApp', 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
